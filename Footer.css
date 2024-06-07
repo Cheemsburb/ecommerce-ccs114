@@ -1,0 +1,124 @@
+.Footer-main{
+    width: 1440px;
+    height: 500px;
+    background-color: #F1E2CD;
+    display: flex;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.Footer-brand{
+    width: 320px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 59px;
+}
+
+.Footer-title{
+    display: flex;
+    width: 320px;
+    height: 45px;
+    margin-bottom: 46px;
+}
+
+.Footer-title img{
+    width: 45px;
+    height: 45px;
+    margin-right: 26px;
+}
+
+.Footer-title p{
+    font-family: "italiana";
+    font-size: 32px;
+    color: black;
+}
+
+.Footer-tagline{
+    font-family: "kaisei decol";
+    font-size: 20px;
+    color: black;
+    margin-bottom: 148px;
+    width: 256px;
+    height: 66px;
+    text-align: center;
+}
+
+.Footer-socials img{
+    width: 40px;
+    height: 40px;
+    transition: 0.15s;
+}
+
+.Footer-socials{
+    width: 316px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-OurShop{
+    width: 266px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 91px;
+    align-items: center;
+}
+
+.Footer-OurShop a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.OurShop-title{
+    font-family: "kaisei decol";
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.line{
+    height: 1px;
+    width: 253px;
+    background-color: black;
+    margin-bottom: 39px;
+}
+
+.Footer-nav{
+    font-family: "kaisei decol";
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 300;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.socials:hover{
+    transform: scale(1.25);
+}
+
+.Footer-nav:hover{
+    transform: scale(1.1);
+    color:#6B5724 ;
+}
+
+.Footer-Customer{
+    width: 256px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+    align-items: center;
+}
+
+.Footer-legal{
+    width: 256px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+    align-items: center;
+}

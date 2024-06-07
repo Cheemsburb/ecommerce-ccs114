@@ -1,0 +1,51 @@
+.Banner-main{
+    width: 1440px;
+    height: 763px;
+    background-image: url("Banner/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+}
+
+.Banner-blur{
+    width: 1440px;
+    height: 763px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Banner-title{
+    font-family: "kaisei decol";
+    font-size: 48px;
+    color: #6B5724;
+    margin-top: 262px;
+    margin-bottom: 43px;
+}
+
+.Banner-description{
+    font-family: "kaisei decol";
+    font-size: 20px;
+    color: #6B5724;
+    margin-bottom: 66px;
+}
+
+.Banner-button{
+    font-family: "kaisei decol";
+    font-size: 20px;
+    color: #6B5724;
+    background-color: #F1E2CD;
+    border: none;
+    width: 200px;
+    height: 63px;
+    transition: 0.15s;
+}
+
+.Banner-button:hover{
+    transform: scale(1.05);
+}
+
+.Banner-button:active{
+    opacity: 0.8;
+}

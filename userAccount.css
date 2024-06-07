@@ -1,0 +1,308 @@
+.main{
+    height: 1555px;
+}
+.User-title{
+    margin-top: 252px;
+    font: 700 36px "kaisei decol";
+    color: #8A6E26;
+    margin-bottom: 35px;
+}
+
+.User-profile-main{
+    display: flex;
+    width: 1265px;
+    height: 540px;
+    
+}
+.User-main{
+    width: 1265px;
+    height: 540px;
+    display: flex;
+}
+
+.User-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.User-profile{
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+    height: 448px;
+    margin-top: 50px;
+}
+
+.User-profile-with-pic{
+    width: 645px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.User-info{
+    width: 391px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 54px;
+    justify-content: space-between;
+}
+
+.User-info-description{
+    font: 400 20px "kaisei decol";
+    color: black;
+}
+
+.User-info-title{
+    font: 700 20px "kaisei decol";
+    color: #8A6E26;
+}
+
+.address-main{
+    width: 564px;
+    height: 192px;
+}
+
+.address-title{
+    font: 400 20px "kaisei decol";
+    color: #8A6E26;
+    margin-bottom: 15px;
+}
+
+.address-infos{
+    font: 400 16px "kaisei decol";
+    color: rgb(0, 0, 0);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+  
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 1555px;
+    background-color: #F8F4E1;
+}
+
+.CartCheckout-main{
+    width: 1310px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 173px;
+}
+
+.Bag-main{
+    width: 718px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.Bag-title{
+    font-family: "kaisei decol";
+    font-weight: 700;
+    font-size: 16px;
+    color: #8A6E26;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Bag-line{
+    width: 718px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 37px;
+}
+
+.Bag-card{
+    width: 595px;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    transition: 0.15s;
+}
+
+.Bag-card:hover{
+    transform: scale(1.05);
+    background-color: #e0d7c9;
+}
+
+
+
+.Bag-card img{
+    width: 130px;
+    height: 130px;
+    margin-right: 20px;
+}
+
+.Bag-card-description{
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    height: 150px;
+    margin-right: 100px;
+}
+
+.Bag-card-title{
+    margin-left: 6px;
+    font: 500 20px "kaisei decol";
+    margin-top: 10px;
+}
+
+.Bag-quantity{
+    margin-left: 11px;
+    margin-top: 5px;
+    font: 500 14px "kaisei decol" ;
+    color: #00000060;
+}
+
+.Bag-description{
+    font: 500 15px "kaisei decol";
+    width: 257px;
+    height: 93px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Bag-card-price{
+    font: 400 20px "junge" ;
+}
+
+
+.Footer-main{
+    width: 1440px;
+    height: 500px;
+    background-color: #F1E2CD;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.Footer-brand{
+    width: 320px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 59px;
+}
+
+.Footer-title{
+    display: flex;
+    width: 320px;
+    height: 45px;
+    margin-bottom: 46px;
+}
+
+.Footer-title img{
+    width: 45px;
+    height: 45px;
+    margin-right: 26px;
+}
+
+.Footer-title p{
+    font-family: "italiana";
+    font-size: 32px;
+    color: black;
+}
+
+.Footer-tagline{
+    font-family: "kaisei decol";
+    font-size: 20px;
+    color: black;
+    margin-bottom: 148px;
+    width: 256px;
+    height: 66px;
+    text-align: center;
+}
+
+.Footer-socials img{
+    width: 40px;
+    height: 40px;
+    transition: 0.15s;
+}
+
+.Footer-socials{
+    width: 316px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-OurShop{
+    width: 266px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 91px;
+    align-items: center;
+}
+
+.Footer-OurShop a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.OurShop-title{
+    font-family: "kaisei decol";
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.line{
+    height: 2px;
+    width: 253px;
+    background-color: black;
+    margin-bottom: 39px;
+}
+
+.Footer-nav{
+    font-family: "kaisei decol";
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 300;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.socials:hover{
+    transform: scale(1.25);
+}
+
+.Footer-nav:hover{
+    transform: scale(1.1);
+    color:#6B5724 ;
+}
+
+.Footer-Customer{
+    width: 256px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+    align-items: center;
+}
+
+.Footer-legal{
+    width: 256px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+    align-items: center;
+}

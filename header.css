@@ -1,0 +1,140 @@
+/* .Header-main{
+    display: flex;
+    background-color: #CCBA96;
+    width: 1440px;
+    height: 112px;
+    align-items: center;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.Header-logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 32px;
+}
+
+.Header-title{
+    margin-left: 22px;
+    margin-right: 158px;
+    font-family: "italiana";
+    font-size: 36px;
+    color: black;
+}
+
+.Header-navigation{
+    font-family: "junge";
+    font-size: 13px;
+    color: black;
+    margin-left: 35px;
+}
+
+.Header-user{
+    width: 35px;
+    height: 35px;
+    margin-left: 224px;
+}
+
+.Header-bag{
+    width: 35px;
+    height: 35px;
+    margin-left: 32px;
+}
+
+.Header-search{
+    width: 35px;
+    height: 35px;
+    margin-left: 32px;
+} */
+
+.Header-main{
+    display: flex;
+    background-color: #CCBA96;
+    width: 1440px;
+    height: 112px;
+    align-items: center;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.Header-logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 32px;
+}
+
+.Header-title{
+    margin-left: 22px;
+    margin-right: 158px;
+    font-family: "italiana";
+    font-size: 36px;
+    color: black;
+}
+
+.Header-navigation{
+    font-family: "junge";
+    font-size: 13px;
+    color: black;
+    /* margin-left: 35px; */
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+#Header-user{
+    width: 35px;
+    height: 35px;
+    margin-left: 224px;
+    cursor: pointer;
+}
+
+#Header-bag{
+    width: 35px;
+    height: 35px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.Header-search{
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+
+.Navigation-wrapper{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+    /* background-color: aquamarine; */
+}
+
+.underline{
+    width: 0px;
+    height: 1px;
+    background-color: black;
+    margin-top: 5px;
+    transition: 0.15s;
+}
+
+.Navigation-wrapper:hover .underline{
+    width: 100%;
+}
+
+.Navigation-wrapper:hover .Header-navigation{
+    transform: scale(1.1);
+}
+
+.Header-icons{
+    transition: 0.15s;
+}
+.Header-icons:hover{
+    transform: scale(1.25);
+}
+
+#Header-search{
+    margin-left: 35px;
+}

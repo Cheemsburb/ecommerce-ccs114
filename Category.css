@@ -1,0 +1,152 @@
+.main{
+    height: 2293px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Highlight-title{
+    font: 700 36px "kaisei decol";
+    color: #8A6E26;
+    margin-top: 160px;
+    margin-bottom: 54px;
+}
+
+.Highlight-main{
+    height: 508px;
+    width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 261px;
+}
+
+.Highlight-pic{
+    width: 500px;
+    height: 500px;
+}
+
+.Highlight-info{
+    width: 658px;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Product-name-wrapper{
+    width: 585px;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 73px;
+}
+
+.Highlight-product-title{
+    font: 400 32px "kaisei decol";
+    color: #8A6E26;
+    margin-bottom: 38px;
+}
+
+.Highlight-product-description{
+    font: 400 20px "kaisei decol";
+    color: #000000;
+    width: 585px;
+    height: 115px;
+    text-align: center;
+}
+
+.Product-infos{
+    width: 604px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.Product-infos-description{
+    font: 400 20px "kaisei decol";
+    color: black;
+}
+
+.Product-infos-title{
+    font: 700 20px "kaisei decol";
+    color: #8A6E26;
+}
+
+.buttons{
+    width: 601px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 41px;
+}
+
+.buttons button{
+    width: 211px;
+    height: 50px;
+    color: black;
+    background-color: #F1E2CD;
+    border-radius: 50px;
+    border: none;
+    transition: 0.15s;
+}
+
+.buttons button:hover{
+    background-color: #ceb898;
+    transform: scale(1.05);
+}
+
+.Suggestion-main{
+    width: 1204px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Suggestion-title{
+    font: 700 16px "kaisei decol";
+    color: #8A6E26;
+    margin-bottom: 62px;
+}
+
+.Suggestion-products-main{
+    width: 1204px;
+    height: 351px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 297px;
+}
+
+.products-suggestion{
+    height: 351px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.15s;
+}
+
+.products-suggestion:hover{
+    transform: scale(1.05);
+    background-color: #e0d7c9;
+}
+
+.products-suggestion img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 16px;
+}
+
+.products-suggestion-title{
+    font: 400 24px "kaisei decol";
+    color: #8A6E26;
+    margin-bottom: 10px;
+}
+
+.Footer-main{
+    margin-top: 0;
+}

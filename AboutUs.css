@@ -1,0 +1,74 @@
+.About-main{
+    width: 1205px;
+    height: 2678px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 122px;
+    align-items: center;
+}
+
+.About-title{
+    font-family: "kaisei decol";
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 193px;
+}
+.About-stories{
+    width: 1204px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#About-stories1 img{
+    width: 537px;
+    height: 700px;
+
+}
+.About-text{
+    width: 479px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About-stories-title{
+    font-family: "kaisei decol";
+    font-size: 30px;
+    color: #8A6E26;
+    font-weight: 700;
+}
+
+.About-stories-description{
+    font-family: "kaisei decol";
+    font-family: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+#About-stories1{
+    margin-bottom: 165px;
+}
+
+#About-stories2{
+    margin-bottom: 165px;
+}
+
+#About-stories2 img{
+    width: 478px;
+    height: 700px;
+}
+
+#About-stories3 img{
+    width: 564px;
+    height: 682px;
+}
