@@ -40,4 +40,9 @@ document.addEventListener('DOMContentLoaded', function () {
     bracelet.addEventListener('click', function () {
       window.location.href = 'Categories/bracelet.html'; // Replace with your actual filename
     });
+
+    const bannerButton = document.getElementById("banner-button");
+    bannerButton.addEventListener("click", function (){
+       document.getElementById("Categories").scrollIntoView();
+    })
   });
